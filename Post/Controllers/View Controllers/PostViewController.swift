@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PostViewController.swift
 //  Post
 //
 //  Created by Darin Marcus Armstrong on 6/24/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PostViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

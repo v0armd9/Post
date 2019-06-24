@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2C27AB7822C1615F006A80E3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27AB7722C1615F006A80E3 /* Post.swift */; };
+		2C27AB7A22C16383006A80E3 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27AB7922C16383006A80E3 /* PostController.swift */; };
 		2CE5E94322C15F7E00D05388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5E94222C15F7E00D05388 /* AppDelegate.swift */; };
-		2CE5E94522C15F7E00D05388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5E94422C15F7E00D05388 /* ViewController.swift */; };
+		2CE5E94522C15F7E00D05388 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5E94422C15F7E00D05388 /* PostViewController.swift */; };
 		2CE5E94822C15F7E00D05388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5E94622C15F7E00D05388 /* Main.storyboard */; };
 		2CE5E94A22C15F8000D05388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5E94922C15F8000D05388 /* Assets.xcassets */; };
 		2CE5E94D22C15F8000D05388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5E94B22C15F8000D05388 /* LaunchScreen.storyboard */; };
@@ -17,9 +18,10 @@
 
 /* Begin PBXFileReference section */
 		2C27AB7722C1615F006A80E3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2C27AB7922C16383006A80E3 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		2CE5E93F22C15F7E00D05388 /* Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Post.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5E94222C15F7E00D05388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CE5E94422C15F7E00D05388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CE5E94422C15F7E00D05388 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		2CE5E94722C15F7E00D05388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CE5E94922C15F8000D05388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CE5E94C22C15F8000D05388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		2C27AB7622C160FA006A80E3 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C27AB7922C16383006A80E3 /* PostController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -110,7 +113,7 @@
 		2CE5E95822C1608300D05388 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2CE5E94422C15F7E00D05388 /* ViewController.swift */,
+				2CE5E94422C15F7E00D05388 /* PostViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -187,7 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C27AB7822C1615F006A80E3 /* Post.swift in Sources */,
-				2CE5E94522C15F7E00D05388 /* ViewController.swift in Sources */,
+				2C27AB7A22C16383006A80E3 /* PostController.swift in Sources */,
+				2CE5E94522C15F7E00D05388 /* PostViewController.swift in Sources */,
 				2CE5E94322C15F7E00D05388 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

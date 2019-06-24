@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Post {
+struct Post: Codable {
     let text: String
     let timestamp: TimeInterval
     let username: String
