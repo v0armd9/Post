@@ -82,3 +82,15 @@ extension PostListTableViewController {
         self.present(addAlert, animated: true, completion: nil)
     }
 }
+
+extension PostListTableViewController {
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.row >= postController.posts.count - 1 {
+            postController.fetchPosts {
+                DispatchQueue.main.async {
+                    tableView.reloadData()
+                }
+            }
+        }
+    }
+}
