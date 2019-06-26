@@ -10,6 +10,7 @@
 		2C27AB7822C1615F006A80E3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27AB7722C1615F006A80E3 /* Post.swift */; };
 		2C27AB7A22C16383006A80E3 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27AB7922C16383006A80E3 /* PostController.swift */; };
 		2C27AB7C22C177AC006A80E3 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27AB7B22C177AC006A80E3 /* PostListTableViewController.swift */; };
+		2C27AB7E22C188FB006A80E3 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27AB7D22C188FB006A80E3 /* DateFormatter.swift */; };
 		2CE5E94322C15F7E00D05388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5E94222C15F7E00D05388 /* AppDelegate.swift */; };
 		2CE5E94822C15F7E00D05388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5E94622C15F7E00D05388 /* Main.storyboard */; };
 		2CE5E94A22C15F8000D05388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5E94922C15F8000D05388 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		2C27AB7722C1615F006A80E3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		2C27AB7922C16383006A80E3 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		2C27AB7B22C177AC006A80E3 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		2C27AB7D22C188FB006A80E3 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		2CE5E93F22C15F7E00D05388 /* Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Post.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5E94222C15F7E00D05388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CE5E94722C15F7E00D05388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				2C27AB7922C16383006A80E3 /* PostController.swift */,
+				2C27AB7D22C188FB006A80E3 /* DateFormatter.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				2C27AB7A22C16383006A80E3 /* PostController.swift in Sources */,
 				2CE5E94322C15F7E00D05388 /* AppDelegate.swift in Sources */,
 				2C27AB7C22C177AC006A80E3 /* PostListTableViewController.swift in Sources */,
+				2C27AB7E22C188FB006A80E3 /* DateFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
